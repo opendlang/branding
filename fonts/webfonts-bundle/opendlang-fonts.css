@@ -1,0 +1,16 @@
+@import url('opendlang-webfonts.css');
+html {
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+code, kbd, pre, samp, tt {
+	font-family: 'IBM Plex Mono', monospace;
+}
+.monospace, font[face='monospace'] {
+	font-family: 'IBM Plex Mono', monospace !important;
+}
+.sans-serif, font[face='sans'], font[face='sans-serif'] {
+	font-family: 'IBM Plex Sans', sans-serif !important;
+}
+.serif, font[face='serif'] {
+	font-family: 'IBM Plex Serif', serif !important;
+}
