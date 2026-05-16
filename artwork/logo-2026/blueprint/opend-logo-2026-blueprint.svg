@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- OpenD Logo 2026 — Copyright © 2026 Mindy Batek (0xEAB) — License: OFL-1.1 -->
+<!-- This shape is derived from the bold glyph for the latin uppercase letter 'D' in the font "IBM Plex Sans" — Copyright © 2017 IBM Corp. with Reserved Font Name "Plex" — License: OFL-1.1-RFN -->
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1080" height="1080" viewBox="0 0 1080 1080">
+	<rect fill="#009" x="0" y="0" width="1080" height="1080"/>
+	<g stroke-width="1">
+		<g stroke="#F00" stroke-dasharray="0 18 18">
+			<line x1="0" y1="540" x2="1080" y2="540"/>
+			<line x1="540" y1="0" x2="540" y2="1080"/>
+		</g>
+		<g stroke="#999" stroke-dasharray="0 9 9">
+			<line x1="0" y1="360" x2="1080" y2="360"/>
+			<line x1="0" y1="720" x2="1080" y2="720"/>
+			<line x1="360" y1="0" x2="360" y2="1080"/>
+			<line x1="720" y1="0" x2="720" y2="1080"/>
+		</g>
+		<g stroke="#555" stroke-dasharray="9 18" >
+			<line x1="45" y1="270" x2="1035" y2="270"/>
+			<line x1="45" y1="810" x2="1035" y2="810"/>
+			<line x1="270" y1="45" x2="270" y2="1035"/>
+			<line x1="810" y1="45" x2="810" y2="1035"/>
+		</g>
+	</g>
+	<path fill="#000" stroke="none" d="M268 450V180h271q96 0 167 40 72 40 111 121 39 79 39 199t-39 200-111 120-167 40H268V630h157v131h114q46 0 81-18 34-17 51-53 19-37 19-94V484q0-57-19-94-17-36-51-53-34-18-81-18H425v131"/>
+	<g stroke-width="2">
+		<g stroke="#999" stroke-dasharray="0 4.5 4.5">
+			<line x1="0" y1="180" x2="1080" y2="180"/>
+			<line x1="0" y1="900" x2="1080" y2="900"/>
+			<line x1="180" y1="0" x2="180" y2="1080"/>
+			<line x1="900" y1="0" x2="900" y2="1080"/>
+		</g>
+		<g stroke="#FF0" stroke-dasharray="18 4.5 4.5 4.5">
+			<line x1="90" y1="450" x2="630" y2="450"/>
+			<line x1="90" y1="630" x2="630" y2="630"/>
+		</g>
+	</g>
+	<g stroke-dasharray="0 4.5 4.5" stroke-width="3">
+		<line stroke="#0FF" x1="90" y1="180" x2="990" y2="180"/>
+		<line stroke="#0FF" x1="268" y1="90" x2="268" y2="990"/>
+		<line stroke="#077" x1="856" y1="90" x2="856" y2="990"/>
+		<line stroke="#0FF" x1="90" y1="900" x2="990" y2="900"/>
+	</g>
+</svg>
