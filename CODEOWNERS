@@ -1,0 +1,7 @@
+# Manual: <https://help.github.com/articles/about-codeowners/>
+
+/artwork/docket/         @0xEAB
+/artwork/logo-2026/      @0xEAB
+/corporate-design/       @0xEAB
+/fonts/                  @0xEAB
+/README.md               @0xEAB @adamdruppe
