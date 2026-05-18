@@ -60,7 +60,7 @@
 		ul.logos>li:not(:last-child) {
 			margin-right: 1rem;
 		}
-		ul.logos img, picture#blueprint>img {
+		ul.logos img, picture.blueprint>img {
 			display: block;
 			max-width: 100%;
 		}
@@ -127,14 +127,29 @@
 		</section>
 		<section>
 			<h3>Avatars</h3>
-			<ul class="logos">
-				<li><img alt="Avatar based on the OpenD Logo" src="avatar/opend-logo-2026-avatar_1080px.png"></li>
-				<li><img alt="Avatar based on the OpenD Logo (dark)" src="avatar/opend-logo-2026-avatar-simplified-dark_1080px.png"></li>
-				<li><img alt="Avatar based on the OpenD Logo (bright)" src="avatar/opend-logo-2026-avatar-simplified-bright_1080px.png"></li>
-				<li><img alt="Avatar based on the OpenD Logo (accent color)" src="avatar/opend-logo-2026-avatar-simplified-accent_1080px.png"></li>
-				<li><img alt="Avatar based on the OpenD Logo (light)" src="avatar/opend-logo-2026-avatar-simplified-light_1080px.png"></li>
-				<li><img alt="Avatar based on the OpenD Logo (black and white)" src="avatar/opend-logo-2026-avatar-simplified-bw_1080px.png"></li>
-			</ul>
+			<section>
+				<h4>Square</h4>
+				<ul class="logos">
+					<li><img alt="Avatar based on the OpenD Logo" src="avatar/square/opend-logo-2026-avatar_1080px.png"></li>
+					<li><img alt="Avatar based on the OpenD Logo (dark)" src="avatar/square/opend-logo-2026-avatar-simplified-dark_1080px.png"></li>
+					<li><img alt="Avatar based on the OpenD Logo (bright)" src="avatar/square/opend-logo-2026-avatar-simplified-bright_1080px.png"></li>
+					<li><img alt="Avatar based on the OpenD Logo (accent color)" src="avatar/square/opend-logo-2026-avatar-simplified-accent_1080px.png"></li>
+					<li><img alt="Avatar based on the OpenD Logo (light)" src="avatar/square/opend-logo-2026-avatar-simplified-light_1080px.png"></li>
+					<li><img alt="Avatar based on the OpenD Logo (black and white)" src="avatar/square/opend-logo-2026-avatar-simplified-bw_1080px.png"></li>
+				</ul>
+			</section>
+			<section>
+				<h4>Circular</h4>
+				<ul class="logos">
+					<li><img alt="Avatar based on the OpenD Logo (circular)" src="avatar/circle/opend-logo-2026-avatar-circle_1080px.png"></li>
+					<li><img alt="Avatar based on the OpenD Logo (circular; no circle mask)" src="avatar/circle/opend-logo-2026-avatar-circle-no-mask_1080px.png"></li>
+					<li><img alt="Avatar based on the OpenD Logo (circular; dark)" src="avatar/circle/opend-logo-2026-avatar-circle-simplified-dark_1080px.png"></li>
+					<li><img alt="Avatar based on the OpenD Logo (circular; bright)" src="avatar/circle/opend-logo-2026-avatar-circle-simplified-bright_1080px.png"></li>
+					<li><img alt="Avatar based on the OpenD Logo (circular; accent color)" src="avatar/circle/opend-logo-2026-avatar-circle-simplified-accent_1080px.png"></li>
+					<li><img alt="Avatar based on the OpenD Logo (circular; light)" src="avatar/circle/opend-logo-2026-avatar-circle-simplified-light_1080px.png"></li>
+					<li><img alt="Avatar based on the OpenD Logo (circular; black and white)" src="avatar/circle/opend-logo-2026-avatar-circle-simplified-bw_1080px.png"></li>
+				</ul>
+			</section>
 		</section>
 	</article>
 	<article>
@@ -162,6 +177,13 @@
 			(i.e. <math><mo>+</mo><mfrac><mn>19</mn><mn>1080</mn></mfrac></math> off-center) may also work.
 		</p>
 		<p>
+			<em>Circular</em>
+			versions of the logo need a different x-offset in order to appear <em>visually centered</em>:
+			<math><mo>+</mo><mfrac><mn>23</mn><mn>240</mn></mfrac></math> from left padding<br>
+			Circular x-offset from a <em>technically centered</em> position:
+			<math><mo>+</mo><mfrac><mn>5</mn><mn>144</mn></mfrac></math>
+		</p>
+		<p>
 			The aperture in the stem is vertically centered and
 			<math><mfrac><mn>1</mn><mn>6</mn></mfrac></math> in height.
 		</p>
@@ -169,9 +191,15 @@
 			<small>All provided fractions are relative to the <em>border-box</em> of the logo graphic.</small>
 		</p>
 		<p>
-			<picture id="blueprint">
+			<picture class="blueprint">
 				<source srcset="blueprint/opend-logo-2026-blueprint.svg">
 				<img alt="Blueprint of the OpenD Logo" src="blueprint/opend-logo-2026-blueprint_3240px.png">
+			</picture>
+		</p>
+		<p>
+			<picture class="blueprint">
+				<source srcset="blueprint/opend-logo-2026-blueprint-avatar-circle.svg">
+				<img alt="Blueprint of the circular OpenD avatar" src="blueprint/opend-logo-2026-blueprint-avatar-circle_3240px.png">
 			</picture>
 		</p>
 	</article>

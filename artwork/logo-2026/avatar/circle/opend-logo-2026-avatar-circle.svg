@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- OpenD Logo 2026 — Copyright © 2026 Mindy Batek (0xEAB) — License: OFL-1.1 -->
+<!-- This shape is derived from the bold glyph for the latin uppercase letter 'D' in the font "IBM Plex Sans" — Copyright © 2017 IBM Corp. with Reserved Font Name "Plex" — License: OFL-1.1-RFN -->
+<svg xmlns="http://www.w3.org/2000/svg" version="2.0" width="1080" height="1080" viewBox="0 0 1080 1080">
+	<defs>
+		<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+			<stop offset="0%" stop-color="#6800D0" />
+			<stop offset="100%" stop-color="#D3C8DD" />
+		</linearGradient>
+		<linearGradient id="fg" x1="0%" y1="0%" x2="100%" y2="100%">
+			<stop offset="67%" stop-color="#FFFFFF" />
+			<stop offset="100%" stop-color="#D3C8DD" />
+		</linearGradient>
+		<filter id="ds">
+			<feDropShadow dx="18" dy="18" stdDeviation="9" flood-color="#000000" flood-opacity="0.62"/>
+		</filter>
+	</defs>
+	<circle fill="url(#bg)" cx="540" cy="540" r="540"/>
+	<path fill="url(#fg)" filter="url(#ds)" d="M283.5 450V180h271q96 0 167 40 72 40 111 121 39 79 39 199t-39 200-111 120-167 40h-271V630h157v131h114q46 0 81-18 34-17 51-53 19-37 19-94V484q0-57-19-94-17-36-51-53-34-18-81-18h-114v131z"/>
+</svg>
