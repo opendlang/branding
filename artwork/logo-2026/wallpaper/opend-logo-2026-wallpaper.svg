@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- OpenD Logo 2026 — Copyright © 2026 Mindy Batek (0xEAB) — License: OFL-1.1 -->
+<!-- This shape is derived from the bold glyph for the latin uppercase letter 'D' in the font "IBM Plex Sans" — Copyright © 2017 IBM Corp. with Reserved Font Name "Plex" — License: OFL-1.1-RFN -->
+<svg xmlns="http://www.w3.org/2000/svg" version="2.0" width="1920" height="1080" viewBox="0 0 1920 1080">
+	<defs>
+		<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+			<stop offset="0%"   stop-color="#6800D0"/>
+			<stop offset="100%" stop-color="#D3C8DD"/>
+		</linearGradient>
+		<linearGradient id="feel--eh--fill-the-D" x1="0%" y1="0%" x2="100%" y2="100%">
+			<stop offset="0%"   stop-color="#D3C8DD20"/>
+			<stop offset="100%" stop-color="#D3C8DD00"/>
+		</linearGradient>
+		<linearGradient id="stroke-the-D" x1="0%" y1="0%" x2="100%" y2="100%">
+			<stop offset="0%"   stop-color="#330066"/>
+			<stop offset="25%"  stop-color="#330066"/>
+			<stop offset="25%"  stop-color="#6800D0"/>
+			<stop offset="50%"  stop-color="#6800D0"/>
+			<stop offset="50%"  stop-color="#AA55FF"/>
+			<stop offset="75%"  stop-color="#AA55FF"/>
+			<stop offset="75%"  stop-color="#D3C8DD"/>
+			<stop offset="100%" stop-color="#D3C8DD"/>
+		</linearGradient>
+		<filter id="filter-the-D">
+			<feDropShadow dx="13.5" dy="13.5" stdDeviation="13.5" flood-color="#000000" flood-opacity="67%"/>
+		</filter>
+	</defs>
+	<rect fill="url(#bg)" x="0" y="0" width="1920" height="1080"/>
+	<g stroke-width="1">
+		<g stroke="#6800D0" stroke-dasharray="0 18 18">
+			<line x1="0" y1="540" x2="1134" y2="540"/>
+			<line x1="540" y1="0" x2="540" y2="1080"/>
+		</g>
+		<g stroke="#5900B3" stroke-dasharray="0 9 9">
+			<line x1="90" y1="360" x2="990" y2="360"/>
+			<line x1="90" y1="720" x2="990" y2="720"/>
+			<line x1="360" y1="90" x2="360" y2="990"/>
+			<line x1="720" y1="90" x2="720" y2="990"/>
+		</g>
+		<g stroke="#5900B3" stroke-dasharray="9 18" >
+			<line x1="45" y1="270" x2="1035" y2="270"/>
+			<line x1="45" y1="810" x2="1035" y2="810"/>
+			<line x1="270" y1="45" x2="270" y2="90"/>
+			<line x1="270" y1="990" x2="270" y2="1035"/>
+			<line x1="810" y1="45" x2="810" y2="1035"/>
+		</g>
+	</g>
+	<g stroke-width="2">
+		<g stroke="#AA55FF" stroke-dasharray="0 4.5 4.5">
+			<line x1="0" y1="180" x2="1080" y2="180"/>
+			<line x1="0" y1="900" x2="1080" y2="900"/>
+			<line x1="180" y1="0" x2="180" y2="1080"/>
+			<line x1="900" y1="0" x2="900" y2="1080"/>
+		</g>
+	</g>
+	<g stroke-dasharray="0 4.5 4.5" stroke-width="2">
+		<line stroke="#5900B3" x1="90" y1="180" x2="990" y2="180"/>
+		<line stroke="#5900B3" x1="268" y1="135" x2="268" y2="945"/>
+		<line stroke="#5900B3" x1="856" y1="135" x2="856" y2="945"/>
+		<line stroke="#5900B3" x1="90" y1="900" x2="990" y2="900"/>
+	</g>
+	<g stroke-dasharray="0 4.5 4.5" stroke-width="2">
+		<line stroke="#5900B3" x1="180" y1="90" x2="180" y2="270"/>
+		<line stroke="#5900B3" x1="180" y1="810" x2="180" y2="990"/>
+		<line stroke="#5900B3" x1="900" y1="90" x2="900" y2="270"/>
+		<line stroke="#5900B3" x1="900" y1="810" x2="900" y2="990"/>
+	</g>
+	<g stroke="#D3C8DD" stroke-dasharray="18 4.5 4.5 4.5" stroke-width="2">
+		<line x1="90" y1="450" x2="630" y2="450"/>
+		<line x1="90" y1="630" x2="630" y2="630"/>
+	</g>
+	<path filter="url(#filter-the-D)" fill="url(#feel--eh--fill-the-D)" stroke="url(#stroke-the-D)" stroke-width="45" d="M268 450V180h271q96 0 167 40 72 40 111 121 39 79 39 199t-39 200-111 120-167 40H268V630h157v131h114q46 0 81-18 34-17 51-53 19-37 19-94V484q0-57-19-94-17-36-51-53-34-18-81-18H425v131z"/>
+</svg>
